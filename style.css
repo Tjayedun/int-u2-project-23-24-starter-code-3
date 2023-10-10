@@ -1,14 +1,44 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
-title {
-  position: relative;
-  text-align: center;
-  color: white;
-} 
-
-.centered {
-  position: absolute;
-  bottom: 20px;
-  top: 20px;
-  font-size:100px;
-  color:white;
+body {
+background-color: #DBF9FC;
 }
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+
+.text1 {
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+  }
+img {
+    width: 600px;
+    height:400px;
+    float: right;
+    border: 4px;
+    padding: 5px;
+
+  
+}
+
+.section {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
